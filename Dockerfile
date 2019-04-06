@@ -1,4 +1,4 @@
-FROM ubuntu:trusty
+FROM debian:stretch-slim
 MAINTAINER Yohann LOEFFLER <loeffler.yohann@gmail.com>
 
 RUN apt-get update && \
